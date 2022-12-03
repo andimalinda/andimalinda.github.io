@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>ahlul 075</title>
+</head>
+<body>
+<from>
+<p align=center>
+<font size=+2>ahlul 075 Form</font>
+</p>
+<table border=2>
+<tr>
+<td align=right>Name: </td>
+<td><input type="text" name="student" size=35></td>
+</tr>
+<tr>
+<td align=right<E-Mail: </td>
+<td><input type="text" name="EmailAddr" size=35></td>
+</tr>
+</table>
+<br>
+What course are you taking?
+<br>
+<select name="Course">
+<option value="MIS213">Introduction to MIS</option>
+<option value="MIS216">Inroduction to Visual Basic Programming</option>
+<option value="MIS315">Database Management Systems</option>
+<option value="MIS316">Programing Applications</option>
+<option value="MIS411">System Analysis and Design</option>
+</select>
+<br><br>
+What type of book do you prefer?
+<br>
+<input type="radio" name="Prefer" value="U" checked> used
+<br>
+<input type="radio" name="Prefer" value="N"> New
+<br><br>
+What else would you like?
+<br>
+<input type="checkbox" name="Notes" value="yes"> study notes
+<br>
+<input type="checkbox" name="Slides" value="yes"> presentation slides
+<br><br>
+<textarea name="Comments" rows=5 cols=40 wrap="yes">
+Enter Comments here :
+</textarea>
+<br><br>
+<input type="reset" value"Reset Values, Dont Submit">
+<br>
+<input type="submit" value="Submit Value To Be Processed">
+</form>
+</body>
+</html>
